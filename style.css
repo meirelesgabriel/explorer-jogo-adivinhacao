@@ -1,0 +1,147 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1 {
+    width: min(42.8rem, 90%);
+}
+
+main {
+    
+    background: #FFFFFF;
+    
+    height: 27.3rem;
+    width: min(42.8rem, 90%);
+
+    margin-top: -12rem;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    text-align: center;
+
+    margin-top: 4.8rem;
+
+    color: #34355B;
+}
+
+.page2 h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+
+    margin-top: 4.8rem;
+
+    color: #34355B;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+
+    color: rgba(52, 53, 91, 0.8);
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+
+    width: 12.5rem;
+    height: 5.3rem;
+
+    
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    text-align: center;
+    
+    width: 35%;
+
+    height: 100%;
+
+    background: #DCE2E9;
+    color: #34355B;
+
+    border-radius: 4px 0 0 4px;
+}
+
+button {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    text-align: center;
+
+    width: 65%;
+
+    background: #7879F1;
+    color: #FFFFFF;
+
+    border-radius: 0 4px 4px 0;
+
+    cursor: pointer;
+    
+    transition: background .3s;
+}
+
+button:hover {
+    background: #6868cf;
+}
+
+.page2 button {
+    border-radius: 4px;
+
+    height: 5.3rem;
+    width: 16.6rem;
+
+    margin: 0 auto;
+    margin-top: 3.3rem;
+}
+
+.hide {
+    display: none;
+}
